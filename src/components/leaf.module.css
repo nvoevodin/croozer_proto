@@ -1,0 +1,95 @@
+.map {
+    /* position:relative; */
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    
+   } 
+.loc {
+    
+    position: relative;
+    background-color: rgb(230, 178, 10);
+    border-radius:50%;
+    display:block;
+    border-width: thin;
+    border-color: rgb(230, 178, 10);
+   
+    padding: 5px;
+  
+}
+
+.spots {
+    position: relative;
+    background-color: rgb(230, 178, 10);
+    border-radius:50%;
+    display:block;
+    border-width: thin;
+    border-color: rgb(230, 178, 10);
+    
+    padding: 5px;
+    
+}
+
+
+.container {
+    position: relative;
+}
+
+.overlay {   
+    margin-top: -3%;
+    margin-right: 10%;
+    position: absolute;
+    background-color:yellow;     
+  }
+
+  .mainMenu {
+      width: 40%;
+      padding: 20px
+  }
+
+   @media screen and (max-width: 600px) {
+    .map {
+        position: relative;
+        top:0;
+        bottom: 0;
+        width:100vw; 
+        height: 100vh;
+    }
+
+    
+    .overlay {     
+      margin-top: -7%;
+      margin-right: 10%;
+      position: absolute;
+      background-color:yellow;     
+    }
+
+    .loc {
+   
+        position: relative;
+        background-color: rgb(230, 178, 10);
+        border-radius:50%;
+        display:block;
+        border-width: thin;
+        border-color: rgb(230, 178, 10);
+       
+        padding: 5px;
+        margin-bottom: 35px;
+    }
+    
+    .spots {
+        position: relative;
+        background-color: rgb(230, 178, 10);
+        border-radius:50%;
+        display:block;
+        border-width: thin;
+        border-color: rgb(230, 178, 10);
+       
+        padding: 5px;
+    }
+
+    .mainMenu {
+        width: 80%
+    }
+  }

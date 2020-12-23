@@ -1,0 +1,57 @@
+{
+  "name": "cruise-prototype-two",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://nvoevodin.github.io/cruise-prototype-two",
+  "dependencies": {
+    "@material-ui/pickers": "^3.2.10",
+    "d3": "^5.14.1",
+    "geolib": "^3.3.1",
+    "json-loader": "^0.5.7",
+    "leaflet": "^1.5.1",
+    "leaflet-choropleth": "^1.1.4",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.15",
+    "react-dom": "^16.12.0",
+    "react-icons": "^4.1.0",
+    "react-input-switch": "^2.2.2",
+    "react-leaflet": "^2.5.0",
+    "react-leaflet-choropleth": "^2.0.1",
+    "react-leaflet-control": "^2.1.2",
+    "react-leaflet-heatmap-layer": "^2.0.0",
+    "react-scripts": "3.2.0",
+    "react-simple-maps": "^2.3.0",
+    "react-time-picker": "^4.1.1",
+    "react-toggle": "^4.1.1",
+    "react-weekday-picker": "^1.0.8",
+    "recharts": "^1.8.5",
+    "shpjs": "^3.6.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
