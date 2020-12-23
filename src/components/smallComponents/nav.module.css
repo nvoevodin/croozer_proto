@@ -1,14 +1,18 @@
 .navMain{
-
-  height: 60px;
+  height: 40px;
+  justify-content: center;
 }
-
 .navText{
   margin: auto;
-  font-size: 20px;
-  font-weight: bolder;
+  font-size: 11px;
 }
 
+
+.title {
+  margin-top: 2%;
+  margin-left: 4%;
+
+}
 
 
 
@@ -17,24 +21,21 @@
 
   .navMain{
     height: 40px;
-    text-align:'center'
+    justify-content: center;
   }
   .navText{
     margin: auto;
     font-size: 11px;
   }
-}
-
-
-.wrapper {
-    display: flex;
-    flex: 1;
+  .title {
+    margin-top: 2%;
+    margin-left: 4%;
+  
   }
-
-.title {
-    margin-left: 2%;
-    margin-top: 5%;
 }
+
+
+
 
   .logo {
     

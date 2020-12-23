@@ -25,13 +25,13 @@ const summary = `TaxiPal is built to help drivers understand what hotspots of ac
 class Leaf extends Component {
 
 
-  testingSmthSec = (x) =>{
+  testingSmthSec = (x) => {
     this.props.testingSmth(x)
     console.log(x)
 
   }
 
-  testingTimer =(x)=>{
+  testingTimer = (x) => {
     this.props.testingTimerZero(x)
     console.log(x)
   }
@@ -42,12 +42,18 @@ class Leaf extends Component {
 
     return (
       <div>
-        <div className = 'fixed-top' >
-<Navigator/>
-</div>
-<div className = 'fixed-top' style = {{width:'90%'}}>
-<MainMenu testingSmthSec = {this.testingSmthSec} testingTimer = {this.testingTimer}/>
-</div>
+        <div className='fixed-top' >
+          <Navigator />
+        </div>
+        <div className='fixed-top' style={{ width: '90%' }}>
+          <MainMenu 
+            testingSmthSec={this.testingSmthSec} 
+            testingTimer={this.testingTimer} 
+            sliceGeo={this.props.sliceGeo}
+            checked={this.props.checked}
+            showAccordian={this.props.showAccordian}
+          />
+        </div>
 
 
 
@@ -65,7 +71,7 @@ class Leaf extends Component {
           className={classes.map}
           zoomControl={false}
         >
-            <TileLayer
+          <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
